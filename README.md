@@ -2,7 +2,7 @@
 
 Projet universitaire de calcul d’empreinte carbone réalisé en HTML, CSS et JavaScript.
 
-## 📌 Fonctionnalités
+##  Fonctionnalités
 
 - Calcul carbone du transport
 - Calcul carbone de l’alimentation
@@ -14,7 +14,7 @@ Projet universitaire de calcul d’empreinte carbone réalisé en HTML, CSS et J
 
 ---
 
-## 🛠 Technologies utilisées
+##  Technologies utilisées
 
 - HTML5
 - CSS3
@@ -25,7 +25,7 @@ Projet universitaire de calcul d’empreinte carbone réalisé en HTML, CSS et J
 
 ---
 
-## 🌍 APIs utilisées
+##  APIs utilisées :
 
 ### Transport
 https://impactco2.fr/api/v1/transport
@@ -38,7 +38,7 @@ https://impactco2.fr/api/v1/thematiques/ecv/1?detail=0&language=fr
 
 ---
 
-## 📊 Exemple de calcul
+##  Exemple de calcul
 
 - Transport : distance × émission CO₂
 - Aliment : quantité × ECV
