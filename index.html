@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CarbonCampus</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+
+</head>
+
+<body>
+
+<div class="app">
+
+  <header>
+
+    <h1>🌱 CarbonCampus</h1>
+
+    <p>
+      Calculateur d'empreinte carbone
+    </p>
+
+  </header>
+
+  <nav>
+
+    <a href="index.html">
+      Accueil
+    </a>
+
+    <a href="result.html">
+      Résultats
+    </a>
+
+  </nav>
+
+  
+  <!-- TRANSPORT -->
+  
+
+    <div class="card">
+
+    <h2>🚌 Transport</h2>
+
+    <input
+      type="number"
+      id="km"
+      placeholder="Entrer votre distance parcourue"
+    >
+
+    <select id="transport"></select>
+
+    <button onclick="loadTransport()">
+      Cliquer pour choisir les types de transport
+    </button>
+
+    <button onclick="calcTransport()">
+      Calculer transport
+    </button>
+
+    <p id="resTransport">
+      0 kgCO₂e
+    </p>
+
+  </div>
+
+  
+  <!-- Alimentation -->
+  
+
+  <div class="card">
+
+    <h2>🍽 Alimentation</h2>
+
+    <select id="category"></select>
+
+    <select id="food"></select>
+
+    <input
+      type="number"
+      id="qty"
+      placeholder="Quantité"
+    >
+
+    <button onclick="calcFood()">
+      Calculer alimentation
+    </button>
+
+    <p id="resFood">
+      0 kgCO₂e
+    </p>
+
+  </div>
+
+  
+  <!-- NUMERIQUE -->
+
+  <div class="card">
+
+    <h2>💻 Numérique</h2>
+
+    <select id="numerique"></select>
+
+    <input
+      type="number"
+      id="numQty"
+      placeholder="Nombre d'heures"
+    >
+
+    <button onclick="calcNumerique()">
+      Calculer numérique
+    </button>
+
+    <p id="resNumerique">
+      0 kgCO₂e
+    </p>
+
+  </div>
+
+</div>
+
+
+
+</body>
+</html>
